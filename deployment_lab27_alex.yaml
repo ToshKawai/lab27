@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mylab27
+  name: toshkalab27
   labels:
     app: webnginx
 spec:
@@ -23,7 +23,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mylab27
+  name: toshkalab27
 spec:
   selector:
     app: nginxwebpod
